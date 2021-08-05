@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "UnrealSerial",
+	"Description" : "Suporte a comunocação serial USB na Unreal Engine 4.",
+	"Category" : "Serial",
+	"CreatedBy" : "Daniel Valente de Macedo",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "UnrealSerial",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}

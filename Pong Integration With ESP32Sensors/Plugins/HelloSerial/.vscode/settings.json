@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Aula/HelloSerial/.vscode": true,
+		"D:/Aula/HelloSerial/Content": true,
+		"D:/Aula/HelloSerial/Intermediate": true,
+		"D:/Aula/HelloSerial/Saved": true,
+		"D:/Aula/HelloSerial/Plugins/UnrealSerial/Intermediate": true
+	}
+}

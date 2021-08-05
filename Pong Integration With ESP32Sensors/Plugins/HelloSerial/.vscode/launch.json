@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HelloSerial (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerial Win64 Debug Build",
+			"program": "D:\\Aula\\HelloSerial\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerial (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerial Win64 DebugGame Build",
+			"program": "D:\\Aula\\HelloSerial\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerial (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerial Win64 Development Build",
+			"program": "D:\\Aula\\HelloSerial\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerial (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerial Win64 Shipping Build",
+			"program": "D:\\Aula\\HelloSerial\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerial (Test)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerial Win64 Test Build",
+			"program": "D:\\Aula\\HelloSerial\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerialEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerialEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Aula\\HelloSerial\\HelloSerial.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerialEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerialEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Aula\\HelloSerial\\HelloSerial.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "HelloSerialEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "HelloSerialEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Aula\\HelloSerial\\HelloSerial.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Aula\\HelloSerial\\HelloSerial.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23"
+		}
+	]
+}
